@@ -1,0 +1,1 @@
+ATT: Dimitar Borisov Terziyski, en aquest projecte heu de crear un **Main** i ha d'imprimir la frase **"Hola món!"**
