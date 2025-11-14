@@ -4,6 +4,7 @@ from time import sleep
 
 # VARIAVLES GENERALS
 #opcio = 0
+flag = 1
 
 # FUNCIONS
 def Area_cuadrat():
@@ -112,7 +113,7 @@ def Bucle_10_negatius():
 
 # MAIN
 if __name__ == "__main__":
-    while True:
+    while flag ==1:
         print ("1: Area_cuadrat")
         print ("2: Calcul_dos_nombres")
         print ("3: Fer_frase")
@@ -152,12 +153,10 @@ if __name__ == "__main__":
                 Bucle_10_negatius()
             case "S":
                 print ("Gràcies per la participació!")
-                break
+                flag = 0
             case _:
                 print("Opció incorrecta")
         sleep(2)
-
-
 
 
 
